@@ -5,8 +5,7 @@
 # License: 3-clause BSD
 descr = """A set of python modules for machine learning and data mining"""
 
-import sys
-import os
+import os, time, sys
 import shutil
 from distutils.command.clean import clean as Clean
 from pkg_resources import parse_version
@@ -30,7 +29,7 @@ DESCRIPTION = 'A set of python modules for machine learning and data mining'
 with open('README.rst') as f:
     LONG_DESCRIPTION = f.read()
 MAINTAINER = 'Andreas Mueller'
-MAINTAINER_EMAIL = 'amueller@ais.uni-bonn.de'
+MAINTAINER_EMAIL = 'smallyangy@163.com'
 URL = 'http://scikit-learn.org'
 DOWNLOAD_URL = 'https://pypi.org/project/scikit-learn/#files'
 LICENSE = 'new BSD'
